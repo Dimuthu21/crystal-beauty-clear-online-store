@@ -1,4 +1,5 @@
 import  mongoose from "mongoose";
+import { createUser, loginUser } from '../controllers/userController.js';
 
 const userSchema=mongoose.Schema({
     email:{
